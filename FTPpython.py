@@ -1,7 +1,7 @@
 from ftplib import FTP
 from time import sleep
 from line_notify import LineNotify
-ACCESS_TOKEN = "BBEhpTEYxRIOgG3nBILetRINzNfY5ScVcgX1UZ3bbb3"
+ACCESS_TOKEN = "your token"
 notify = LineNotify(ACCESS_TOKEN)
 
 ftp = FTP('localhost')
